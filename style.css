@@ -1,0 +1,168 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #121212;
+    color: #e0e0e0;
+    line-height: 1.6;
+}
+
+
+.site-header {
+    background-color: #1a0000;
+    color: #ffffff;
+    text-align: center;
+    padding: 40px 20px;
+    border-bottom: 4px solid #b30000;
+}
+
+.site-header h1 {
+    margin: 0 0 10px 0;
+    font-size: 2.5em;
+    letter-spacing: 2px;
+    color: #ff3333;
+}
+
+.site-header p {
+    margin: 0;
+    font-size: 1.1em;
+    color: #cccccc;
+}
+
+.site-nav {
+    background-color: #1f1f1f;
+    text-align: center;
+    border-bottom: 1px solid #333333;
+}
+
+.site-nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.site-nav li {
+    display: inline-block;
+}
+
+.site-nav a {
+    display: block;
+    padding: 15px 25px;
+    color: #e0e0e0;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.95em;
+}
+
+.site-nav a:hover {
+    background-color: #b30000;
+    color: #ffffff;
+}
+
+
+.site-main {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 30px 20px;
+}
+
+.content-section {
+    background-color: #1a1a1a;
+    margin-bottom: 30px;
+    padding: 30px;
+    border-radius: 6px;
+    border: 1px solid #2c2c2c;
+}
+
+.content-section h2 {
+    color: #ff3333;
+    border-bottom: 2px solid #b30000;
+    padding-bottom: 10px;
+    margin-top: 0;
+    font-size: 1.8em;
+}
+
+.main-article p {
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; 
+    height: 0;
+    background-color: #000000;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+
+.gallery-wrapper {
+    text-align: center; 
+}
+
+.gallery-item {
+    display: inline-block;
+    vertical-align: top;
+    width: 29%; 
+    min-width: 220px;
+    margin: 1.5%;
+    background-color: #242424;
+    border: 1px solid #333333;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+.gallery-item img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.gallery-item figcaption {
+    font-size: 0.85em;
+    color: #cccccc;
+    margin-top: 8px;
+    text-align: center;
+}
+
+ 
+.character-card {
+    background-color: #222222;
+    border-left: 4px solid #b30000;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.character-card h3 {
+    margin: 0 0 8px 0;
+    color: #ffffff;
+    font-size: 1.2em;
+}
+
+.character-card p {
+    margin: 0;
+    color: #b0b0b0;
+    font-size: 0.95em;
+}
+
+
+.site-footer {
+    background-color: #1a0000;
+    color: #aaaaaa;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9em;
+    border-top: 2px solid #b30000;
+}
